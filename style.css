@@ -1,0 +1,179 @@
+body{
+	margin-top: 0px;
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	margin-top: 0px;
+	width: 100%;
+	height: 69px;
+	position: fixed;
+	background-color: black;
+	border-bottom: 1px solid seashell;
+	z-index: 10;
+}
+
+header a{
+	color: seashell;
+	font-family: Helvetica;
+}
+
+.logo{
+	height: 50px;
+	margin: 10px 0px auto 10px;
+	opacity: 0.9;
+}
+
+nav{
+	float: right;
+}
+
+nav p{
+	display: inline-block;
+	margin-right: 15px;
+	opacity: 0.9;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.first-section{
+	width: 1200px;
+	height: 700px;
+	margin-bottom: 100px;
+	background-image: url("images/img-mission-background.jpg");
+	display: flex;
+	align-items: center;
+}
+
+.mission{
+	background-color: black;
+	width: 100%;
+	text-align: center;
+}
+
+.mission h2{
+	margin-top: 5px;
+	padding: 0px;
+	margin-bottom: 10px;
+	opacity: 0.9;
+}
+
+.mission h4{
+	margin-bottom: 10px;
+	padding: 0px;
+	margin-top: 0px;
+	opacity: 0.9;
+}
+
+.second-section{
+	display: flex;
+	wdith: 1000px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.row-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	opacity: 0.9;
+}
+
+.row-text h2{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.row{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.row div{
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	margin-left: 20px;
+	margin-bottom: 100px;
+	opacity: 0.9;
+}
+
+.row img{
+	width: 100%;
+	height: 100%;
+}
+
+.third-section{
+	width: 1200px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("images/img-locations-background.jpg");
+}
+
+.third-section h2{
+	opacity: 0.9;
+	margin-top: 90px;
+	margin-bottom: 15px;
+}
+
+.row_square{
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+
+.square{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+	margin-right: 40px;
+	height: 300px;
+	width: 300px;
+	opacity: 0.9;
+}
+
+.square h3{
+	margin-top: 35px;
+	margin-bottom: 0px;
+	opacity: 0.9;
+}
+
+.square h4{
+	margin-bottom: 0px;
+	opacity: 0.9;
+}
+
+.bottom{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 200px;
+	opacity: 0.9;
+}
+
+.bottom h5{
+	margin-bottom: 8px;
+	opacity: 0.9;
+}
+
+footer{
+	margin-top: 260px;
+	text-align: left;
+}
+
+footer h5{
+	margin-left: 20px;
+	opacity: 0.9;
+}
